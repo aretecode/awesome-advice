@@ -109,8 +109,6 @@ The answer to any CS question is always "maybe".
 
 Humans are terrible at predicting the future, your code is not likely withstand the test of time, it's more important to be modifiable and deletable than all-encompassing.
 
----
-
 ## General
 - Design patterns: don't let the names dictate the form of your code
 - Expressive, clearly communicative, clean code
