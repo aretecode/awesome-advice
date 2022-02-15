@@ -42,3 +42,47 @@ The smallest dose that will produce a desired outcome. Do more with less.
 > "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away." - Antoine de Saint-Exupéry
 
 Related Principles: MVP, 80/20
+
+
+## Laws
+
+**LOD** (Law Of Demeter)
+
+> A class should have only limited knowledge about the details of its dependencies.
+
+Build deep classes but shallow APIs. Hide internal knowledge and reduce API complexity.
+
+**BDUF** (Big Design Up Front)
+
+> First solve the problem, then write the code
+
+Design should be done before coding starts
+- Remove blockers for exponential speed gains
+- Sequence milestones thoughtfully
+- Align on breakdown and ownership
+
+**SOC** (Separation of concerns)
+
+Build domain boundaries around necessary dependencies, build interfaces where domains must interact.
+
+**SSOT** (Single Source Of Truth)
+
+Reliable data should be found in one place. Related: immutability
+
+**CQS** (Command-query separation)
+
+Separate writes from reads. E.g. DB writes/reads.
+
+## Best Practices
+
+**Use the right tool for the job**
+
+> "If your only tool is a hammer, every problem looks like an nail." - Abraham Maslow
+
+There are no good or bad solutions, only optimizations around specific context.
+
+The answer to any CS question is always "maybe".
+
+**Avoid premature optimization**
+
+Humans are terrible at predicting the future, your code is not likely withstand the test of time, it's more important to be modifiable and deletable than all-encompassing.
